@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body p{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.main{
+    width: 300px;
+    margin: 8.5% auto;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    width: 100%;
+    background-position: center;
+}
+
+.text-orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+.text h3{
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+.text p{
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    height: 60px;
+    width: 250px;
+}
+.annualPlan{
+    margin-right:10px;
+
+}
+.annualPlan h5{
+    padding-bottom: 3px;
+}
+.plan button{
+    padding-left: 10px;
+    background-color: none;
+}
+.plan a{
+    margin-left: 30px;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+.pay{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+button{ 
+    border: none;
+    background-color: white;
+}
+.pro{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    height: 35px;
+    width: 250px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.cancel{
+    color: black;
+    font-weight: 700;
+}
